@@ -1,6 +1,6 @@
 <template lang="pug">
 #app
-  img(src='./assets/logo.png')
+  img(src='https://raw.githubusercontent.com/izofer/musicowl/master/src/assets/logo.png')
   h1 IzoMusic
   select(v-model="selectedCountry")
     option(v-for="country in countries" v-bind:value="country.value" v-bind:selected="country.select") {{country.name}}
